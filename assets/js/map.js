@@ -35,7 +35,7 @@ const MapBase = {
         bounds: mapBoundary,
         attribution: '<a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>',
       }),
-      'map.layers.surroundead': L.tileLayer((isLocalHost() ? './assets/maps/' : 'https://jeanropke.b-cdn.net/assets/maps/gta3/') + 'surroundead/{z}/{x}_{y}.jpg', {
+      'map.layers.surroundead': L.tileLayer((isLocalHost() ? './assets/maps/' : 'https://jeanropke.b-cdn.net/assets/maps/gta3/') + 'Surroundead/{z}/{x}_{y}.jpg', {
         noWrap: true,
         bounds: mapBoundary,
         attribution: '<a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>',
