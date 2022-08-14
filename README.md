@@ -1,4 +1,4 @@
-# GTA III Map ([website](https://d21rs.github.io/Surroundead-map/))
+# SurrounDEAD Map ([website](https://d21rs.github.io/Surroundead-map/))
 [![Discord](https://img.shields.io/discord/631510938016677889?label=discord)](https://discord.gg/HkU6ugT)
 
 
