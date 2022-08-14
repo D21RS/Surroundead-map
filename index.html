@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-  <title>Grand Theft Auto III Interactive Map</title>
+  <title>SurrounDead Interactive Map</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description"
-    content="Grand Theft Auto III Map. Find any useful items, locations or event around the map of GTAIII.">
-  <meta name="keywords" content="Grand Theft Auto 3, Grand Theft Auto III, GTA3 Map, GTAIII Map, GTA III, GTA 3, Map, Interactive Map, Interactive, jeanropke map, jeanropke">
+    content="SurrounDead Map. Find any useful items, locations or event around the map of SurrounDead.">
+  <meta name="keywords" content="SurrounDead, Map, Interactive Map, Interactive, jeanropke map, jeanropke">
 
   <link rel="apple-touch-icon" sizes="60x60" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -18,9 +18,6 @@
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="msapplication-config" content="./browserconfig.xml">
   <meta name="theme-color" content="#000000">
-
-  <!-- Preconnects to improve performance -->
-  <link rel="preconnect" href="https://jeanropke.b-cdn.net">
 
   <!-- Preloads for certain UI elements -->
   <link rel="preload" as="image" href="./assets/images/action_indicator_clear.png">
@@ -55,7 +52,7 @@
       <a data-text="menu.hide_all" class="menu-hide-all" data-help="hide_all" href="javascript:void(0);">Hide all</a>
       <a data-text="menu.show_all" class="menu-show-all" data-help="show_all" href="javascript:void(0);">Show all</a>
     </div>
-    <div id="menu-container"></div>    
+    <div id="menu-container"></div>
     <div>
       <div class="menu-option submenu-only" data-type="locations" data-help="item_category">
         <span>
@@ -99,19 +96,14 @@
       <span class="header-border"></span>
     </div>
     <div class="settings-container">
-      <div class="explain-text">
-        <span class="menu-option-text" data-text="menu.translate_body">Translations are made by the community for the community.</span>
-        <span id="translation-progress"></span>
-        <a data-text="menu.translate_link" href="https://translate.rdo.gg/" target="_blank"
-          rel="noopener noreferrer">Help us by translating on Crowdin.</a>
-      </div>
       <hr class="menu-divider">
+      <!-- LANGUAGE SELECTOR HIDE
       <div class="input-container" data-help="language">
         <label for="language" data-text="menu.language">Language</label>
         <select class="input-text wide-select-menu" id="language">
           <option value="en" selected>English</option>
         </select>
-      </div>
+      </div> -->
       <div class="input-container" data-help="tooltip_menu">
         <label for="tooltip" data-text="menu.tooltip_menu">Tooltips for menu items</label>
         <div class="input-checkbox-wrapper">
@@ -157,20 +149,22 @@
           <label class="input-checkbox-label" for="show-customization"></label>
         </div>
       </div>
+      <!--IMPORT EXPORT CLUSTER
       <div class="input-container" data-help="show_import_export">
         <label for="show-import-export" data-text="menu.show_import_export">Show import/export settings</label>
         <div class="input-checkbox-wrapper">
           <input class="input-checkbox" type="checkbox" name="show-import-export" value="1" id="show-import-export">
           <label class="input-checkbox-label" for="show-import-export"></label>
         </div>
-      </div>
+      </div> -->
+      <!-- DEBUG SETTINGS
       <div class="input-container" data-help="show_debug">
         <label for="show-debug" data-text="menu.show_debug">Show debug settings</label>
         <div class="input-checkbox-wrapper">
           <input class="input-checkbox" type="checkbox" name="show-debug" value="1" id="show-debug">
           <label class="input-checkbox-label" for="show-debug"></label>
         </div>
-      </div>
+      </div> -->
       <hr class="menu-divider">
       <div id="reload-map" class="input-container clickable" data-help="reload_map">
         <label data-text="menu.reload_map">Reload the map now</label>
@@ -253,23 +247,25 @@
             <label class="input-checkbox-label" for="show-help"></label>
           </div>
         </div>
+        <!-- HIDE COORDS OPTION
         <div class="input-container" data-help="show_coords">
           <label for="show-coordinates" data-text="menu.show_coords">Show coordinates on click</label>
           <div class="input-checkbox-wrapper">
             <input class="input-checkbox" type="checkbox" name="show-coordinates" value="1" id="show-coordinates" />
             <label class="input-checkbox-label" for="show-coordinates"></label>
           </div>
-        </div>        
+        </div> -->
       </div>
     </div>
 
+    <!-- IMPORT SETTINGS
     <div id="import-export-container" class="opened">
       <div class="header">
         <span class="header-border"></span>
         <h2 class="header-title" data-text="menu.import_export_title">Import/Export</h2>
         <span class="header-border"></span>
       </div>
-  
+
       <div class="settings-container">
         <div class="input-container-noflex">
           <h4 class="no-margin-top" data-text="menu.settings_import_export_title">Settings</h4>
@@ -307,7 +303,7 @@
             data-text="menu.user_pins_export" data-help="user_pins_export">Export</button>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div id="debug-container">
       <div class="header">
@@ -352,20 +348,20 @@
       <h2 class="header-title" data-text="menu.information_links">Links/Information</h2>
       <span class="header-border"></span>
     </div>
-    <div class="settings-container">      
-      <a class="no-style" href="https://github.com/jeanropke/GTA3Map/issues" target="_blank">
+    <div class="settings-container">
+      <!--<a class="no-style" href="https://github.com/jeanropke/GTA3Map/issues" target="_blank">
         <div class="input-container clickable" data-help="report_issues">
           <label data-text="menu.report_issues">Report issues here</label>
           <div class="input-action external"></div>
         </div>
-      </a>
+      </a>-->
       <a class="no-style" href="https://discord.com/invite/eRPCBDy" target="_blank">
         <div class="input-container clickable" data-help="join_discord">
           <label data-text="menu.join_discord">Join our Discord!</label>
           <div class="input-action external"></div>
         </div>
-      </a>     
-      
+      </a>
+
     </div>
 
     <div id="bottom-sticky">
