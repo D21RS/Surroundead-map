@@ -4,7 +4,7 @@
     "collectable": true,
     "key": "hidden_packages",
     "locations": [
-      {"key": "hidden_package_01", "x": -36.2920, "y": 37.2630 },
+      {"key": "hidden_package_01", "x": -36.2920, "y": 37.2630 }
     ]
   },
   {
@@ -12,7 +12,7 @@
     "collectable": true,
     "key": "rampage",
     "locations": [
-      {"key": "rampage_1", "x": -34.9277, "y": 35.8507},
+      {"key": "rampage_1", "x": -34.9277, "y": 35.8507}
     ]
   },
   {
@@ -20,7 +20,7 @@
     "collectable": true,
     "key": "unique_stunt",
     "locations": [
-      {"key": "unique_stunt_1", "x": -35.1563, "y": 33.1406},
+      {"key": "unique_stunt_1", "x": -35.1563, "y": 33.1406}
     ]
   },
   {
@@ -28,7 +28,7 @@
     "collectable": true,
     "key": "challanges",
     "locations": [
-      {"key": "challange_1", "x": -31.7266, "y": 39.6875},
+      {"key": "challange_1", "x": -31.7266, "y": 39.6875}
     ]
   },
   {
@@ -36,7 +36,7 @@
     "collectable": false,
     "key": "health",
     "locations": [
-      {"text": "health_1", "x": -31.1745, "y": 37.7730},
+      {"text": "health_1", "x": -31.1745, "y": 37.7730}
     ]
   },
   {
@@ -44,7 +44,7 @@
     "collectable": false,
     "key": "bodyarmour",
     "locations": [
-      {"text": "bodyarmour_1", "x": -32.6499, "y": 28.1100},
+      {"text": "bodyarmour_1", "x": -32.6499, "y": 28.1100}
     ]
   },
   {
@@ -52,7 +52,7 @@
     "collectable": false,
     "key": "bribe",
     "locations": [
-      {"text": "bribe_1", "x": -30.7343, "y": 33.4800},
+      {"text": "bribe_1", "x": -30.7343, "y": 33.4800}
     ]
   },
   {
@@ -60,7 +60,7 @@
     "collectable": false,
     "key": "adrenaline",
     "locations": [
-      {"text": "adrenaline_1", "x": -34.4210, "y": 40.7348},
+      {"text": "adrenaline_1", "x": -34.4210, "y": 40.7348}
     ]
   }
 ]

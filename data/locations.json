@@ -6,35 +6,35 @@
       "color": "pink",
       "key": "safehouses",
       "locations": [
-        {"text": "safehouse_1", "x": -27.7578, "y": 34.4688},
+        {"text": "safehouse_1", "x": -27.7578, "y": 34.4688}
       ]
     },
     {
       "color": "black",
       "key": "bomb_shops",
       "locations": [
-        {"text": "bomb_shop_1", "x": -25.2969, "y": 39.4375},
+        {"text": "bomb_shop_1", "x": -25.2969, "y": 39.4375}
       ]
     },
     {
       "color": "green",
       "key": "ammunations",
       "locations": [
-        {"text": "ammunation_1", "x": -28.7969, "y": 36.8750},
+        {"text": "ammunation_1", "x": -28.7969, "y": 36.8750}
       ]
     },
     {
       "color": "orange",
       "key": "paynsprays",
       "locations": [
-        {"text": "paynspray_1", "x": -28.2344, "y": 35.1406},
+        {"text": "paynspray_1", "x": -28.2344, "y": 35.1406}
       ]
     },
     {
       "color": "yellow",
       "key": "garages",
       "locations": [
-        {"text": "garage_1", "x": -32.2656, "y": 42.9141},
+        {"text": "garage_1", "x": -32.2656, "y": 42.9141}
       ]
     }
     ]
@@ -46,28 +46,28 @@
         "color": "darkred",
         "key": "ak47",
         "locations": [
-          {"text": "ak47_1", "x": -25.0632, "y": 29.0685},
+          {"text": "ak47_1", "x": -25.0632, "y": 29.0685}
         ]
       },
       {
         "color": "darkred",
         "key": "baseball_bat",
         "locations": [
-          {"text": "baseball_bat_1", "x": -27.6050, "y": 34.6020},
+          {"text": "baseball_bat_1", "x": -27.6050, "y": 34.6020}
         ]
       },
       {
         "color": "darkred",
         "key": "flame_thrower",
         "locations": [
-          {"text": "flame_thrower_1", "x": -24.3221, "y": 36.2190},
+          {"text": "flame_thrower_1", "x": -24.3221, "y": 36.2190}
         ]
       },
       {
         "color": "darkred",
         "key": "m16",
         "locations": [
-          {"text": "m16_1", "x": -41.5722, "y": 23.6227},
+          {"text": "m16_1", "x": -41.5722, "y": 23.6227}
         ]
       },
       {
@@ -81,7 +81,7 @@
         "color": "darkred",
         "key": "pistol",
         "locations": [
-          {"text": "pistol_1", "x": -35.5766, "y": 36.2107},
+          {"text": "pistol_1", "x": -35.5766, "y": 36.2107}
         ]
       },
       {
@@ -95,7 +95,7 @@
         "color": "darkred",
         "key": "shotgun",
         "locations": [
-          {"text": "shotgun_1", "x": -27.0378, "y": 38.6070},
+          {"text": "shotgun_1", "x": -27.0378, "y": 38.6070}
         ]
       },
       {
@@ -109,7 +109,7 @@
         "color": "darkred",
         "key": "uzi",
         "locations": [
-          {"text": "uzi_1", "x": -36.4796, "y": 37.6643},
+          {"text": "uzi_1", "x": -36.4796, "y": 37.6643}
         ]
       }
     ]
