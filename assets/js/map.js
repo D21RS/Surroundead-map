@@ -35,6 +35,11 @@ const MapBase = {
         bounds: mapBoundary,
         attribution: '<a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>',
       }),
+      'map.layers.surroundead': L.tileLayer((isLocalHost() ? './assets/maps/' : 'https://jeanropke.b-cdn.net/assets/maps/gta3/') + 'surroundead/{z}/{x}_{y}.jpg', {
+        noWrap: true,
+        bounds: mapBoundary,
+        attribution: '<a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>',
+      }),
       'map.layers.colorful': L.tileLayer((isLocalHost() ? './assets/maps/' : 'https://jeanropke.b-cdn.net/assets/maps/gta3/') + 'colorful/{z}/{x}_{y}.png', {
         noWrap: true,
         bounds: mapBoundary,
@@ -101,12 +106,12 @@ const MapBase = {
       layers: [mapLayers[this.themeOverride || Settings.baseLayer]],
     }).setView([this.viewportX, this.viewportY], this.viewportZoom);
 
-    MapBase.map.addControl(
-      L.control.attribution({
-        position: 'bottomright',
-        prefix: '<a target="_blank" href="https://github.com/jeanropke/RDOMap/blob/master/CONTRIBUTORS.md" data-text="map.attribution_prefix">RDOMap Contributors</a>',
-      })
-    );
+    //MapBase.map.addControl(
+    //  L.control.attribution({
+    //    position: 'bottomright',
+    //    prefix: '<a target="_blank" href="https://github.com/jeanropke/RDOMap/blob/master/CONTRIBUTORS.md" data-text="map.attribution_prefix">RDOMap Contributors</a>',
+    //  })
+    //);
 
     L.control.zoom({
       position: 'bottomright',
@@ -170,7 +175,7 @@ const MapBase = {
 
     // Set map theme according to param.
     const themeParam = getParameterByName('theme');
-    if (themeParam && ['game', 'colorful'].includes(themeParam))
+    if (themeParam && ['game', 'colorful', 'surroundead'].includes(themeParam))
       this.themeOverride = `map.layers.${themeParam}`;
 
     // Sets the map's default zoom level to anywhere between minZoom and maxZoom.
