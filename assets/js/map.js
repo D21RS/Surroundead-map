@@ -1,6 +1,6 @@
 const MapBase = {
   minZoom: 4,
-  maxZoom: 7,
+  maxZoom: 6,
   map: null,
   overlays: [],
   isDarkMode: false,
